@@ -4,7 +4,6 @@ import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bluetooth_serial/flutter_bluetooth_serial.dart';
-import 'package:get_storage/get_storage.dart';
 import 'package:sleek_circular_slider/sleek_circular_slider.dart';
 
 import '../../../utils/utils.dart';
@@ -123,9 +122,6 @@ class _BluetoothRobotArmPage extends State<BluetoothRobotArmPage> {
   Widget build(BuildContext context) {
     var screenSize = MediaQuery.of(context).size;
     var landscapeScreen = (screenSize.width > screenSize.height) ? true : false;
-    GetStorage storage = GetStorage();
-    storage.write('screeWidth', screenSize.width);
-    storage.write('screeHeight', screenSize.height);
 
     return Scaffold(
       backgroundColor: Colors.black,
