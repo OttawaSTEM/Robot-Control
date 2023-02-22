@@ -53,7 +53,7 @@ class NavigationDrawer extends StatelessWidget {
                     txtAppName,
                     style: Theme.of(context)
                         .textTheme
-                        .headline5
+                        .bodyMedium
                         ?.merge(const TextStyle(color: Colors.white)),
                   ),
                   Text(
@@ -81,7 +81,8 @@ class NavigationDrawer extends StatelessWidget {
                 ),
               ),
               onTap: () => Navigator.of(context).pushReplacement(
-                MaterialPageRoute(builder: (context) => const HomePage(title: txtAppName)),
+                MaterialPageRoute(
+                    builder: (context) => const HomePage(title: txtAppName)),
               ),
             ),
             authController.authStatus

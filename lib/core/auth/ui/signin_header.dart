@@ -21,8 +21,8 @@ class SigninHeader extends StatelessWidget {
           height: screenSize.height * 0.1,
         ),
         const SizedBox(height: 20),
-        Text(txtAppName, style: Theme.of(context).textTheme.headline5),
-        Text(txtAppName, style: Theme.of(context).textTheme.bodyText1),
+        Text(txtAppName, style: Theme.of(context).textTheme.bodyMedium),
+        Text(txtAppName, style: Theme.of(context).textTheme.bodyMedium),
         const SizedBox(height: 30),
       ],
     );

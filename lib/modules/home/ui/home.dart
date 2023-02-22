@@ -53,7 +53,8 @@ class HomePage extends StatelessWidget {
               ),
             ),
             onTap: () {
-              Get.toNamed("/bluetooth");
+              // Get.toNamed("/bluetooth");
+              Get.toNamed("/dashboard");
             },
           ),
         ),
