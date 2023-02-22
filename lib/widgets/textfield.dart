@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/constants/colors.dart';
+import 'package:robot_control/constants/colors.dart';
 
 class TextFieldWidget extends StatelessWidget {
   final Function onChange;

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_boilerplate/constants/assets.dart';
-import 'package:flutter_boilerplate/constants/strings.dart';
+import 'package:robot_control/constants/assets.dart';
+import 'package:robot_control/constants/strings.dart';
 
 class SigninHeader extends StatelessWidget {
   final Size screenSize;

@@ -478,8 +478,8 @@ class _BluetoothRobotArmPage extends State<BluetoothRobotArmPage> {
                     minimumSize: const Size(100, 40),
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(30))),
+                onPressed: isConnected ? () => sendMessage('Initial') : null,
                 child: const Text('Initial'),
-                onPressed: () {},
               )),
             ),
 

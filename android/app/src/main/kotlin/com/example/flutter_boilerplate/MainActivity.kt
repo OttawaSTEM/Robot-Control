@@ -1,4 +1,4 @@
-package com.example.flutter_boilerplate
+package com.ottawastem.robot_control
 
 import io.flutter.embedding.android.FlutterActivity
 
