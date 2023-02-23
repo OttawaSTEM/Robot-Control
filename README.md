@@ -1,11 +1,3 @@
-# VSCode extensions for Flutter
-
-- Dart
-- Dart Data Class generator
-- Bloc
-
-# robot_control
-
 # Flutter Launcher Icons
 
 flutter pub run flutter_launcher_icons
